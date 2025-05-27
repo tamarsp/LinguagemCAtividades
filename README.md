@@ -1,2 +1,3 @@
 # LinguagemCAtividades
-150 questões respondidas de Portugol e C.
+Questões respondidas de Portugol e C.
+Aluna da turma de ciência da computação da Faculdade Wyden do polo UniRuy.
