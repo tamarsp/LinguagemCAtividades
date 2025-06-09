@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int ht, pd, td;
+    float vh, sb, sl;
+    printf("Digite as horas trabalhadas no mes: \n"); scanf("%d", &ht);
+    printf("Digite o valor da hora trabalhada: \n"); scanf("%f", &vh);
+    printf("Digite o desconto: \n"), scanf("%d", &pd);
+    
+    sb = ht * vh;
+    printf("O salario bruto é: \n %f", sb);
+    td = (pd / 100)*sb;
+    printf("O total de desconto é: \n %d", td);
+    sl = sb - td;
+    printf("O salario liquido é de: \n %f", sl);
+    return 0;
+}
