@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float area;
+    float raio;
+    printf("Digite o numero do raio: \n"); scanf("%f", &raio);
+    float pi = 3.14159;
+    
+    area = pi * raio * raio;
+    
+    printf("A area é de: %f", area);
+    
+    return 0;
+}
