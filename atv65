@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    int n, j, i=1;
+    int e = 1.0; 
+    int fatorial;
+      printf("Digite um valor inteiro e positivo ");
+    scanf("%d", &n);
+      while (i <= n) {
+        fatorial = 1;
+        j = 1;
+
+        while (j <= i) {
+            fatorial *= j;
+            j++;
+        }
+        e += 1 / fatorial;
+        i++;
+    }
+    printf("\nValor de 'e': %d\n", e);
+    return 0;
+}
