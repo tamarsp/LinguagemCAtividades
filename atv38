@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+   int opcao;
+   int a;
+   int rq;
+   printf("Lista\n");
+   printf("\n1-Raiz quadrada\n");
+   printf("\n2-A metade\n");
+   printf("\n3-10por cento do número\n");
+   printf("\n4-O dobro\n");
+   printf("\nEscolha uma das opçoes acima: \n"); scanf("%d", &opcao);
+   
+   switch(opcao);
+
+    return 0;
+}
