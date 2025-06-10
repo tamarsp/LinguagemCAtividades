@@ -1,0 +1,22 @@
+#include <stdio.h>
+ 
+ int main(){
+    int x, y, i;
+    int resultado;
+    
+    printf("Digite a base: ");
+    scanf("%d", &x);
+    printf("\nDigite o expoente: ");
+    scanf("%d", &y);
+    
+    if(x < 0 || y < 0) {
+        printf("Erro: X e Y devem ser inteiros e positivos.\n");
+        return 1;
+    }
+    for(i = 1; i <= y; i++) {
+        resultado *= x;
+    }
+    printf("%d elevado a %d é: %d\n", x, y, resultado);
+    
+    return 0;
+}
