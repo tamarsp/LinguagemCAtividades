@@ -1,0 +1,11 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    int cavalo, ferradura;
+    printf("digite o numero de cavalos que foram comprados: ");
+    scanf("%d", &cavalo);
+    ferradura = cavalo * 4;
+    printf("São necessario %d", ferradura);
+    return 0;
+}
+
