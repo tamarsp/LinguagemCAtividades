@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+   int multi;
+   for(int a = 1; a <= 13; a = a + 1){
+       printf("\nTabuada\n");
+       for(int b = 1; b <= 10; b=b+1){
+            multi = a * b;   
+       }
+        printf("%d x %d = %d", a, b, multi);
+   }
+    return 0;
+}
