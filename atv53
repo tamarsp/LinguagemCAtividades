@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int produto;
+   for(int a = 1; a <= 15; a = a + 2){
+       produto *= a;
+   }
+   printf("\nProduto\n %d", produto);
+
+    return 0;
+}
