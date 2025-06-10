@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    // Write C code here
+  int tempo, velocidade, distancia, litrosUsados;
+  printf("Digite o tempo: "); scanf("%d", &tempo);
+  printf("Digite a velocidade: "); scanf("%d", &velocidade);
+  distancia = tempo * velocidade;
+  printf("A distancia é de: \n %d", distancia);
+  litrosUsados = distancia / 12;
+  printf("\nA quantidade de litros usados é de \n %d litros", litrosUsados);
+    return 0;
+}
