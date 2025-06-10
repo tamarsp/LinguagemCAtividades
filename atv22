@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float diaria = 60;
+    float resultado;
+    int quantidadeDiaria;
+    
+    char nome[15];
+    fgets(nome, 15, stdin);
+    printf("Quantos dias ficara hospedado: "); scanf("%.2f", &quantidadeDiaria);
+    if(quantidadeDiaria >= 15){
+        resultado = (diaria * 5.50) + (diaria * 6);
+        printf("O total é de: %.2f", resultado);
+    }else
+    if(quantidadeDiaria < 15){
+        resultado = diaria * 8.00;
+        printf("O resultado é: %.2f", resultado);
+        
+    }
+
+    return 0;
+}
