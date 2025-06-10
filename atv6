@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    // Write C code here
+   int x, y, resultado;
+   printf("Digite um numero: "); scanf("%d", &x);
+   printf("Digite um numero: "); scanf("%d", &y);
+
+    resultado = x + y;
+    printf("O resultado da soma é: %d", resultado);
+    return 0;
+}
