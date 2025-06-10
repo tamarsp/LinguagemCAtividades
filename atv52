@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int total;
+    int grao;
+    
+    for(a ; a <= 64; a=a++){
+        grao = grao * 2;
+        total += grao;
+        a= a + 1;
+    }
+    printf("Total: %d", total);
+    return 0;
+}
