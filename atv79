@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int idade, dias;
+    char nome[15];
+    
+    printf("Informe seu nome ");
+    fgets(nome, 15, stdin);
+    printf("Informe a idade: ");
+    scanf("%d", &idade);
+    dias = idade * 365;
+    printf("%s Você ja viveu %d dias",nome ,dias);
+
+    return 0;
+}
