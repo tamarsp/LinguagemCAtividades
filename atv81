@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float precoGasolina, precoPago, qgasolina;
+    
+    printf("Informe o preço da gasolina: ");
+    scanf("%f", &precoGasolina);
+    printf("Informe o valor pago: ");
+    scanf("%f", &precoPago);
+    
+    qgasolina = precoGasolina / precoPago;
+    printf("O total é %.2f\n", qgasolina);
+     return 0;
+}
