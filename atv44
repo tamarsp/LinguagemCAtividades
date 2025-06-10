@@ -1,0 +1,45 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int opcao, quantidade;
+    float a;
+    printf("Lista \n");
+    printf("1-\n'ABCD' R$ 5,30\n");
+    printf("2-\n'XYPK' R$ 6,00\n");
+    printf("3-\n'KLMP' R$ 3,20\n");
+    printf("4-\n'QRST' R$ 2,50\n");
+   
+    printf("Digite o codigo: "); scanf("%d", &opcao);
+    printf("Quantidade "); scanf("%d", &quantidade);
+    
+        switch(opcao){
+        case 1:
+        printf("\n'ABCD' R$ 5,30\n");
+        a = 5.30 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 2:
+        printf("\n'XYPK' R$ 6,00\n");
+        a = 6.00 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 3:
+        printf("\n'KLMP' R$ 3,20\n");
+        a = 3.20 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 4:
+        printf("\n'QRST' R$ 2,50\n");
+        a = 2.50 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+       default:
+        printf("Invalido");
+    }
+    return 0;
+}
