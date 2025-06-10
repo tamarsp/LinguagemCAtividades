@@ -1,0 +1,31 @@
+#include <stdio.h>
+ typedef struct{
+        char nome[20];
+        char endereco[30];
+        int telefone;
+    }cliente;
+int main(){
+    cliente clientela[2];
+    
+    for(int i = 0; i<2; i++){
+        printf("Cadastro cliente %d: \n", i +1);
+        printf("Nome: ");
+        fgets(clientela[i].nome, sizeof(clientela[i].nome), stdin);
+
+        printf("Endereço: ");
+        fgets(clientela[i].endereco, sizeof(clientela[i].endereco), stdin);
+
+        printf("Telefone: ");
+        fgets(clientela[i].telefone, sizeof(clientela[i].telefone), stdin);
+    }
+    printf(" Dados Cadastrados\n");
+    for (int i = 0; i < 2; i++) {
+        printf("Cliente %d:\n", i + 1);
+        printf("Nome: %s", clientela[i].nome);
+        printf("Endereço: %s", clientela[i].endereco);
+        printf("Telefone: %d", clientela[i].telefone);
+        printf("\n");
+    }
+    return 0;
+}
+
