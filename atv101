@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int anonasci, anoAtual;
+    int idadeAnos, idadeMeses, idadeDias, idadeSemanas;
+    
+    printf("Digite o ano de nascimento ", &anonasci);
+    scanf("%d", &anonasci);
+    printf("Digite o ano atual ");
+    scanf("%d", &anoAtual);
+    
+    idadeAnos = anonasci - anoAtual;
+    idadeMeses = idadeAnos * 12;
+    idadeSemanas = idadeAnos * 52;
+    idadeDias = idadeAnos * 365;
+    
+    printf("Anos %d, meses %d, semanas %d, dias %d", idadeAnos, idadeMeses, idadeSemanas, idadeDias);
+    return 0;
+}
