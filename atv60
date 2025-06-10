@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int x = 3, soma;
+    printf("Progressão geometrica\n");
+    
+    while(x <= 6561){
+        printf("%d \n", &x);
+        soma += x;
+        x *= 3;
+    }
+    printf("\n\nSoma dos termos da PG: %d\n", soma);
+    return 0;
+}
