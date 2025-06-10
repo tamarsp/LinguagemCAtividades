@@ -1,0 +1,30 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+int main() {
+    int a;
+    printf("Lista");
+    printf("\n1) Solteiro");
+    printf("\n1) Casado");
+    printf("\n1) Separado");
+    printf("\n1) Viúvo");
+    printf("\nDigite um numero: ");scanf("%d", &a);
+    
+    switch(a){
+        case 1:
+        printf("Solteiro");
+        break;
+        case 1:
+        printf("Casado");
+        break;
+        case 1:
+        printf("Separado");
+        break;
+        case 1:
+        printf("Viúvo");
+        break;
+        default:
+        printf("Invalido");
+    }
+    return 0;
+}
