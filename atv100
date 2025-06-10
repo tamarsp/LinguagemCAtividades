@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int totalDias, anos, meses, dias, resto;
+    
+    printf("Informe o total de dias sem acidentes "); scanf("%d", &totalDias);
+    anos = totalDias / 360;
+    resto = totalDias % 360;
+    meses = resto / 30;
+    dias = resto % 30;
+    
+    printf("Sem acidentes: %d dias, %d meses, %d anos ", dias, meses, anos);
+    return 0;
+}
