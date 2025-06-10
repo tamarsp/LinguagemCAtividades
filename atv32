@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+    
+    int main(){
+    int a, b, c;
+    int mp, ma, opcao;
+    printf("Escolha 1 (Media aritmetica) ou 2 (Media ponderada): "); scanf("%d", &opcao);
+    printf("Informe 3 notas: "); scanf("%d%d%d", &a, &b, &c);
+    if(opcao == 1){
+        mp = ((a*3)+(b*3)+(c*4))/3+3+4;
+        printf("Sua Média ponderada é: %d", mp);
+    }else
+    if(opcao == 2){
+        ma = (a + b + c)/3;
+        printf("Sua média aritmetica é %d", ma);
+    }
+  
+    return 0;
+}
