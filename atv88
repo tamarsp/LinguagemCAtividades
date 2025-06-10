@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float suaAltura, suaSombra, alturaPredio, alturaSombra;
+    
+    printf("Informe sua altura: ");
+    scanf("%f", &suaAltura);
+    printf("Informe o comprmento da sua sombra: ");
+    scanf("%f", &suaSombra);
+    printf("Informe o comprimento da somra do predio: ");
+    scanf("%f", alturaSombra);
+    
+    if(suaSombra > 0){
+        alturaPredio = (alturaSombra * suaAltura) / suaSombra;
+    }
+    printf("É de %.2f", alturaPredio);
+    return 0;
+}
