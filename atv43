@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main() {
+    int opcao, quantidade;
+    float a;
+    printf("Lista \n");
+    printf("\n1001 ------ 5,32\n");
+    printf("\n1324 ------ 6,45\n");
+    printf("\n6548 ------ 2,37\n");
+    printf("\n8790 -------5,32\n");
+    printf("\n7623 -------6,45\n");
+
+    printf("Digite o codigo: "); scanf("%d", &opcao);
+    printf("Quantidade "); scanf("%d", &quantidade);
+    
+        switch(opcao){
+        case 1001:
+        printf("\n1001 ------ 5,32\n");
+        a = 5.32 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 1324:
+        printf("\n1324 ------ 6,45\n");
+        a = 6.45 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 6548:
+        printf("\n6548 ------ 2,37\n");
+        a = 2.37 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 8790:
+        printf("\n8790 -------5,32\n");
+        a = 5.32 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 7623:
+        printf("\n7623 ------- 6,45\n");
+        a = 6.45 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        default:
+        printf("Invalido");
+    }
+    return 0;
+}
