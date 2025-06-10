@@ -1,0 +1,60 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int opcao, quantidade;
+    float a;
+    printf("Lista \n");
+    
+    printf("\n100 Cachorro quente ---- 1,10\n");
+    printf("\n101 Bauru simples ------ 1,30\n");
+    printf("\n102 Bauru c/ovo -------- 1,50\n");
+    printf("\n103 Hamburger ---------- 1,10\n");
+    printf("\n104 Cheeseburger ------- 1,30\n");
+    printf("\n105 Refrigerante ------- 1,00\n");
+    
+    printf("Digite o codigo: "); scanf("%d", &opcao);
+    printf("Quantidade "); scanf("%d", &quantidade);
+    
+        switch(opcao){
+        case 100:
+        printf("\n100 Cachorro quente ---- 1,10\n");
+        a = 1.10 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 101:
+        printf("\n101 Bauru simples ------ 1,30\n");
+        a = 1.30 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 102:
+        printf("\n102 Bauru c/ovo -------- 1,50\n");
+        a = 1.50 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 103:
+        printf("\n103 Hamburger ---------- 1,10\n");
+        a = 1.10 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 104:
+        printf("\n104 Cheeseburger ------- 1,30\n");
+        a = 1.30 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        case 105:
+        printf("\n105 Refrigerante ------- 1,00\n");
+        a = 1.00 * quantidade;
+        printf("Total: %.2f ", a);
+        break;
+        
+        default:
+        printf("Invalido");
+    }
+    return 0;
+}
