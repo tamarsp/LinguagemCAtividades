@@ -1,0 +1,20 @@
+/ Online C compiler to run C program online
+#include <stdio.h>
+    
+    int main(){
+    int a;
+    
+    printf("Informe um numeros "); scanf("\n%d", &a);
+    
+    if(a % 2 == 0){
+        printf("Par\n");
+    }else
+    if(a % 2 == 1){
+        printf("\nImpar\n");
+    }
+    if(a >= 0){
+        printf("\npositivo\n");
+    }else
+        printf("\nNegativo\n");
+    return 0;
+}
