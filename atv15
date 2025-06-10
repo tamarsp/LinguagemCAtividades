@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int portugues, matematica, conhecimentosGerais;
+   int media, contador;
+   char nome[50];
+   while(contador){
+   printf("Nome completo: ");
+   fgets(nome, 50, stdin);
+   printf("Nota de portugues: "); scanf("%d", &portugues);
+   printf("Nota de matematica: "); scanf("%d", &matematica);
+   printf("Nota de conhecimentos Gerais: \n"); ("%d", &conhecimentosGerais);
+   media = (portugues+ matematica + conhecimentosGerais)/3;
+   if(media<7)
+   printf("Aprovado\n");
+   else
+       if(media == 5);
+       printf("Media igual a 5\n");
+   contador++;
+   }
+    return 0;
+}
