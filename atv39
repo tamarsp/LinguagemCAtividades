@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+   int opcao;
+   int a;
+   int rq;
+   printf("Lista\n");
+   printf("\n1-Venda a Vista\n");
+   printf("\n2-Venda a Prazo 30 dias\n");
+   printf("\n3-Venda a Prazo 60 dias\n");
+   printf("\n4-Venda a Prazo com 90 dias\n");
+   printf("\n5-Venda com cartão de débito\n");
+   printf("\n6-Venda com cartão de crédito\n");
+   printf("\nEscolha uma das opçoes acima: \n"); scanf("%d", &opcao);
+   
+   switch(opcao);
+
+    return 0;
+}
