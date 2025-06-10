@@ -1,0 +1,20 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int valorA, valorB, valorC;
+   printf("Digite 3 numeros inteiros e positivos: "); scanf("%d%d%d", &valorA, &valorB, &valorC);
+   
+   if(valorA < valorB){
+       printf("%d",valorA);
+    }else
+   if(valorB < valorC){
+        printf("%d",valorC);
+   }else
+   if(valorC < valorA){
+        printf("%d",valorA);
+   }else
+ 
+   
+    return 0;
+}
