@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float area;
+    float base;
+    printf("Digite o valor da base: \n"); scanf("%f", &base);
+    float altura;
+    printf("Digite o valor de altura: \n"); scanf("%f", &altura);
+    
+    area = (base * altura) / 2;
+    
+    printf("A area é de: %f", area);
+    
+    return 0;
+}
