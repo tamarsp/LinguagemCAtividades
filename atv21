@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float tipo1 = 0.50;
+    float tipo2 = 0.60;
+    float tipo3 = 0.75;
+    float valorArrecadado;
+    int quantidadeVendida1, quantidadeVendida2, quantidadeVendida3;
+    
+    printf("Digite a quantida de picole vendidos tipo 1: "); scanf("%d", quantidadeVendida1);
+    
+    if(quantidadeVendida1 > 1){
+        quantidadeVendida1 = quantidadeVendida1 + 1;
+    }else
+        if(quantidadeVendida2 > 1){
+            quantidadeVendida2 = quantidadeVendida1 + 1;
+        }else
+            if(quantidadeVendida3 > 1){
+                quantidadeVendida3 = quantidadeVendida3 +1;
+            }else{
+                printf("Numero errado");
+            }
+    
+    return 0;
+}
