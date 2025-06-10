@@ -1,0 +1,14 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float nota1, nota2, nota3, md;
+    printf("Informe a primeira nota "); scanf("%f", &nota1);
+    printf("Informe a segunda nota "); scanf("%f", &nota2);
+    printf("Informe a terceira nota "); scanf("%f", &nota3);
+    
+    md = (nota1 * 1+nota2 * 2+nota3 * 3) / (1 + 2 + 3);
+    
+    printf("A média ponderada é %.2f", md);
+    return 0;
+}
