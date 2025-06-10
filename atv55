@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    int fatorial = 1;
+
+    printf("Informe um número inteiro não negativo: ");
+    scanf("%d", &n);
+
+    if (n < 0) {
+        printf("números negativos.\n");
+    } else {
+        for (int i = 1; i <= n; i++) {
+            fatorial *= i;
+        }
+        printf("Fatorial de %d é: %d\n", n, fatorial);
+    }
+
+    return 0;
+}
