@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int pequeno, medio, grande, quantidadetotal;
+    float valorpeq = 10.00;
+    float valormed = 12.00;
+    float valorgra = 15.00;
+    float precototal;
+    
+    printf("Informe a quantidade de camisas tamanho pequeno foi pego \n"); scanf("%d", &pequeno);
+     printf("Informe a quantidade de camisas tamanho medio foi pego \n"); scanf("%d", &medio);
+      printf("Informe a quantidade de camisas tamanho grande foi pego \n"); scanf("%d", &grande);
+     
+     quantidadetotal = pequeno + medio + grande;
+     printf("Quantidade de camisas %d ", quantidadetotal);
+     
+    precototal = (pequeno * valorpeq)+(medio * valormed)+(grande * valorgra);
+    printf("\n Valor total das peças é de %.2f ", precototal);
+    return 0;
+}
