@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main(){
+    
+    int mat[2][2]{ 
+            {7, 8},  
+            {1, 2} };
+    int transp[2][2];
+    for(int i=0; i < 2; i++){
+        for(int j = 0; j < 2; j++);
+        transp[j][i] = mat[i][j];
+    }
+    printf("\nMatriz Original\n");
+    for(int i=0; i<2; i++){
+        for(int j = 0; j < 2; j++);
+        printf("%d ", mat[i][j]);
+    }
+    printf("\nMatriz transposta:\n");
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 2; j++) {
+            printf("%d ", transp[i][j]);
+        }
+    }
+    return 0;
+}
