@@ -1,0 +1,18 @@
+int main() {
+    int a, b, c;
+    int soma;
+    
+    a = printf("Digite um numero inteiro e positivo:"); 
+    scanf("%d ", &a);
+    b = printf("Digite um numero inteiro e positivo:"); 
+    scanf("%d ", &b);
+    c = printf("Digite um numero inteiro e positivo:"); 
+    scanf("%d ", &c);
+      soma = a + b;
+      printf("Soma dos dois primeiros numeros: %d \n", soma);
+    if(soma <= c)
+       printf("A soma dos dois primeiros numeros é maior que o terceiro numero");
+    
+    
+    return 0;
+}
