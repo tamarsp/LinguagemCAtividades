@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int x, soma = 0, media;
+   
+    do{
+        printf("Informe um número: ");
+        scanf("%d", &x);
+        soma += x;
+        printf("Soma atual: %d\n", soma);
+    }while(x <= 9999);
+    
+    return 0;
+}
