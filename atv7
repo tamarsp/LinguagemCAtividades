@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int f, c;
+    printf("Digite a temperatura de celsius: \n"); scanf("%d", &c);
+    f = (9 * c +160)/5;
+    printf("resultado é \n %d", f);
+    return 0;
+}
