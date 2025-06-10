@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float r, area; 
+    float pi = 3.14;
+    printf("Informe o raio da pizza: ");
+    scanf("%f", &r);
+    
+    area = pi * r * r;
+    printf("Area é de %.2f", area);
+    return 0;
+}
