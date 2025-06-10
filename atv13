@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int num;
+   printf("Digite um numero inteiro: "); scanf("%d", &num);
+   
+   if(num <= 10)
+     printf("F1");
+   if(num > 10 && num <= 100){
+     printf("F2");
+    if(num > 100)   
+     printf("F3");
+   }
+
+    return 0;
+}
