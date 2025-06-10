@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float area, lado;
+    printf("INforme o lado do quadrado: ");
+    scanf("%f", &lado);
+    
+    area = lado * lado;
+    printf("A area do quadrado é de %.1f", area);
+    return 0;
+}
