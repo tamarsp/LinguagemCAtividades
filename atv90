@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    float pesoGrama, pesoquilo;
+    printf("INforme seu peso: ");
+    scanf("%f", &pesoquilo);
+    
+    pesoGrama = pesoquilo * 1000;
+    printf("O peso em gramas é de %.1f", pesoGrama);
+    return 0;
+}
