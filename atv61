@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+  int altura, peso, pessoa =1;
+  char nome[10];
+  while(pessoa <=2){
+      printf("\nInforme seu nome ");
+      char nome[10]; fgets(nome, 10, stdin);
+      printf("%s", nome);
+      printf("\nInforme seu peso ");
+      scanf("%d", &peso);
+      printf("\nInforme sua altura ");
+      scanf("%d", &altura);
+      pessoa++;
+      }
+    return 0;
+}
