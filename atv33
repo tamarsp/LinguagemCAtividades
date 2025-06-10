@@ -1,0 +1,22 @@
+#include <stdio.h>
+    
+    int main(){
+    int n;
+    printf("Informe seu saldo médio: "); scanf("%d", &n);
+    
+    if(n <= 200){
+        printf("Nenhum credito");
+    }else
+    if(n >= 201 && n <= 400){
+        printf("20 por cento do valor do saldo médio");
+    }else
+    if (n >= 401 && n <= 600){
+        printf("30 por cento do valor do saldo médio");
+    }else
+    if(n >= 601){
+        printf("40 por cento do valor do saldo médio");
+    }else{
+        printf("Numero invalido");
+    }
+    return 0;
+}
