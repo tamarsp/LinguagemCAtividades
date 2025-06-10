@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int a, b;
+    printf("Valor de A: \n"); scanf("%d", &a);
+    printf("Valor de B: \n"); scanf("%d", &b);
+    a = a+b;
+    b = a-b;
+    a = a-b;
+    printf("valor A: %d valor B: %d", a , b);
+    return 0;
+}
