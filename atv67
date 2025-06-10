@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+   int a[4], b[4], soma[4];
+   int i;
+   
+   printf("Informe 4 numeros para o vetor a: \n");
+   for(i=0; i<4; i++){
+       printf("a[%d] ", i);
+       scanf("%d", &a[i]);
+   }
+   printf("Informe 4 numeros para o vetor b: \n");
+   for(i = 0; i<4; i++){
+       printf("b[%d] ", i);
+       scanf("%d", &b[i]);
+    }
+    for(i = 0; i<4; i++){
+        soma[i]=a[i] + b[i];
+    }
+    for(i = 0; i<4; i++){
+    printf("soma[%d] = %d ", i, soma[i]);
+    }
+    return 0;
+}
