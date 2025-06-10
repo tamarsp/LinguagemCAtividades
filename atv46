@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char opcao;
+    printf("Digite um letra do alfabeto: "); scanf("%c", &opcao);
+    
+    switch(opcao){
+        case 'a':
+            printf("É uma vogal");
+        break;
+        case 'e':
+            printf("É uma vogal");
+        break;
+        case 'i':
+            printf("É uma vogal");
+        break;
+        case 'o':
+            printf("É uma vogal");
+        break;
+        case 'u':
+            printf("É uma vogal");
+        break;
+        default:
+        printf("É uma consoante");
+    }
+    return 0;
+}
