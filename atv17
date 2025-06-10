@@ -1,0 +1,40 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int valorCompra;
+    int valorTroco;
+    int valorPago;
+    int valorNotasc, valorNotasb, valorNotasa;
+    int trocoNotasc, trocoNotasb, trocoNotasa;
+    int a = 1;
+    int b = 10;
+    int c = 100;
+    
+    printf("Digite o valor produto: "); scanf("%d", &valorCompra);
+    printf("Digite o valor do pago: "); scanf("%d", &valorPago);
+    valorTroco = valorCompra - valorPago;
+    printf("O troco é de: %d \n", valorTroco);
+    
+    if(valorTroco >= 100){
+    valorNotasc = valorTroco/c;
+    printf("As notas são de 100: %d\n", valorNotasc);
+    trocoNotasc = valorNotasc - c;
+    valorNotasb = valorTroco/b;
+    printf("As notas são de 10: %d\n", valorNotasb);
+    trocoNotasb = valorNotasb - b;
+    valorNotasa = valorTroco/a;
+    printf("As notas são de 1: %d\n", valorNotasa);
+    trocoNotasa = valorNotasa - a;
+    }else{
+        if(valorTroco >=100)
+    valorNotasa = valorTroco/a;
+    printf("As notas são de 1: %d\n", valorNotasa);
+    trocoNotasa = valorNotasa - a;
+    valorNotasb = valorTroco/b;
+    printf("As notas são de 10: %d\n", valorNotasb);
+    trocoNotasb = valorNotasb - b;
+    return 0;
+    }
+}
+
