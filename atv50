@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+for(int a = 7; a < 1000; a=a+7){
+        if(a % 2 != 0){
+            printf("\n%d", a);
+        }
+    return 0;
+}
