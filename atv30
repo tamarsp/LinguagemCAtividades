@@ -1,0 +1,24 @@
+ ifsc// Online C compiler to run C program online
+#include <stdio.h>
+    
+    int main(){
+    int num1;
+    int num2;
+    int num3;
+    int media;
+    
+    printf("Informe as 3 notas "); scanf("\n%d%d%d", &num1, &num2, &num3);
+    
+    media = (num1 + num2 + num3) / 3;
+    printf("\nSua média é: %d", media);
+    if(media >= 7){
+        printf("\nAprovado");
+    }else
+    if(media < 7 && media >= 4){
+        printf("\nProva final");
+    }else
+    if(media < 4){
+        printf("\nReprovado");
+    }
+    return 0;
+}
