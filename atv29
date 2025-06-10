@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+    
+    int main(){
+    int opcao;
+    int num1 = 2;
+    int num2 = 3;
+    int num3 = 4;
+    
+    printf("Escolha um número de 1 a 3: "); scanf("%d", &opcao);
+    if(opcao == 1){
+        printf("O número é %d" , num1);
+    }else
+    if(opcao == 2){
+        printf("O número é %d" , num2);
+    }else
+    if(opcao == 3){
+        printf("O número é %d" , num3);
+    }else{
+    printf("Invalido");
+    }
+    return 0;
+}
