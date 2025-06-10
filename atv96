@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>  
+int main() {
+    int baseMaior, baseMenor, altura, trapezio;
+    
+    printf("Informe a base maior ");
+    scanf("%d", baseMaior&);
+    printf("Informe a base menor ");
+    scanf("%d", &baseMenor);
+    printf("Informe altura ");
+    scanf("%d", &altura);
+    
+    trapezio = ((baseMaior + baseMenor)*altura) / 2;
+    printf("Trapezio é %d", trapezio);
+     return 0;
+}
