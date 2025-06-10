@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int x = 1, soma =0;
+   
+    do{
+        soma += x;
+        x++;
+    }while(x <= 10);
+    printf("numero %d \n ", x);
+    printf("Soma %d\n ", soma);
+    return 0;
+}
