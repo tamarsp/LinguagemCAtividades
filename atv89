@@ -1,0 +1,14 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int x, y, total;
+    printf("Informe o primeiro número: ");
+    scanf("%d", &x);
+    printf("Informe o segundo número (não pode se 0): ");
+    scanf("%d", &y);
+    
+    total= x / y;
+    printf("A divisão é %.2f", total);
+    return 0;
+}
