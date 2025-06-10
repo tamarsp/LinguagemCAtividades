@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int x, impar, par;
+   
+    do{
+        printf("Informe um número: \n");
+        scanf("%d", &x);
+        if(x % 2 == 0){
+            printf("\nPar %d\n", x, par);
+        }else{
+            printf("\nImpar %d\n", x, impar);
+        }
+        
+    }while(x <= 9999);
+    
+    return 0;
+}
