@@ -1,0 +1,60 @@
+/ Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   
+   int listaArtigo1, preco1, precoComDesconto1;
+   int listaArtigo2, preco2, precoComDesconto2;
+   int listaArtigo3, preco3, precoComDesconto3;
+   int listaArtigo4, preco4, precoComDesconto4;
+   int desconto, resultado1, resultado2, resultado3, resultado4;
+   int totalAPagar;
+   
+   printf("listaArtigo1\n");
+   char nome1[15]; 
+   printf("Nome do artigo 1: "); 
+   fgets(nome1, 15, stdin);
+   printf("Digite o valor do objeto: "); scanf("%d", &preco1);
+   printf("Digite o valor o desconto: "); scanf("%d", &desconto);
+   precoComDesconto1 = (preco1 * desconto) / 100;
+   resultado1 = preco1 - precoComDesconto1;
+   printf("Vaor com desconto é: %d", resultado1); 
+   
+   printf("\nlistaArtigo2\n");
+   char nome2[15]; 
+   printf("\nNome do artigo 2: "); 
+   fgets(nome2, 15, stdin);
+   printf("\nDigite o valor do objeto: "); scanf("%d", &preco2);
+   printf("\nDigite o valor o desconto: "); scanf("%d", &desconto);
+   precoComDesconto2 = (preco2 * desconto) / 100;
+   resultado2 = preco2 - precoComDesconto2;
+   printf("\nVaor com desconto é: %d", resultado2); 
+   
+   printf("\nlistaArtigo 3\n");
+   char nome3[15]; 
+   printf("\nNome do artigo 3: "); 
+   fgets(nome3, 15, stdin);
+   printf("\nDigite o valor do objeto: "); scanf("%d", &preco3);
+   printf("\nDigite o valor o desconto: "); scanf("%d", &desconto);
+   precoComDesconto3 = (preco3 * desconto) / 100;
+   resultado3 = preco3 - precoComDesconto3;
+   printf("\nVaor com desconto é: %d", resultado3); 
+   
+   printf("\nlistaArtigo 4\n");
+   char nome4[15]; 
+   printf("\nNome do artigo 4: "); 
+   fgets(nome2, 15, stdin);
+   printf("\nDigite o valor do objeto: "); scanf("%d", &preco4);
+   printf("\nDigite o valor o desconto: "); scanf("%d", &desconto);
+   precoComDesconto4 = (preco4 * desconto) / 100;
+   resultado4 = preco4 - precoComDesconto4;
+   printf("\nVaor com desconto é: %d", resultado4); 
+   
+   totalAPagar = resultado1 + resultado2 + resultado3 + resultado4;
+   
+   if(totalAPagar <= 100)
+   printf("O resultado é menor que 100 reais.");
+   else
+   printf("O resultado é maior que 100 reais");
+    return 0;
+}
