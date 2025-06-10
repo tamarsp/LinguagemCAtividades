@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>  
+int main() {
+    float raio, altura, volume, pi = 3.14;
+    
+    printf("Informe raio ");
+    scanf("%f", &raio);
+    printf("Informe altura ");
+    scanf("%f", &altura);
+    
+    volume = pi * raio * raio * altura;
+    printf("Volume do cilindro é %.2f", volume);
+    
+    return 0;
+}
