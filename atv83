@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int dia, mes, diaPassados;
+    printf("Informe o dia ");
+    scanf("%d", &dia);
+    printf("Informe o mes ");
+    scanf("%d", &mes);
+    diaPassados = (mes - 1) * 30 + dia;
+    printf("Dias passados são %d", diaPassados);
+    return 0;
+}
