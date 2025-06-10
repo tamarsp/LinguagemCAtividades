@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int totalPedido, totalDesconto;
+    int parafuso = 10;
+    int porcas = 20;
+    int arruelas = 30;
+    int  totalParaf, totalPorca, totalArruela;
+    float descontoParaf, descontoPorca, descontoArruelas;
+    
+    char nomeCliente[30];
+    printf("Escreva seu nome: ");
+    fgets(nomeCliente, 30, stdin);
+    if(totalPedido >=1)
+    printf("Quantidade de parufuso, porcas e arruelas: "); scanf("%d%d%d", &totalParaf, &totalPorca, &totalArruela);
+    totalPedido = totalParaf+totalPorca+totalArruela;
+    printf("Total de compras: %d \n", totalPedido);
+    descontoParaf = (parafuso * totalParaf) / 100;
+    descontoPorca = (porcas * totalPorca) / 100;
+    descontoArruelas = (arruelas * totalArruela) / 100;
+    totalDesconto = descontoParaf + descontoPorca + descontoArruelas;
+    printf("Total de desconto é: %d", totalDesconto);
+
+    return 0;
+    }
