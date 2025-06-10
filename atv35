@@ -1,0 +1,48 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+    
+    int main(){
+   int opcao;
+   
+    printf("\nLista do zodiaco. Escolha um número de um 1 a 12: "); scanf("%d", &opcao);
+   
+   if(opcao == 1){
+       printf("Você é do seguinte signo do zodiaco: Aquário");
+   }else
+   if(opcao == 2){
+       printf("Você é do seguinte signo do zodiaco: Peixes");
+   }else
+   if(opcao == 3){
+       printf("Você é do seguinte signo do zodiaco: Aries");
+   }else
+   if(opcao == 4){
+       printf("Você é do seguinte signo do zodiaco: Touro");
+   }else
+   if(opcao == 5){
+       printf("Você é do seguinte signo do zodiaco: Gêmeos");
+   }else
+   if(opcao == 6){
+       printf("Você é do seguinte signo do zodiaco: Câncer");
+   }else
+   if(opcao == 7){
+       printf("Você é do seguinte signo do zodiaco: Leão");
+   }else
+   if(opcao == 8){
+       printf("Você é do seguinte signo do zodiaco: Virgem");
+   }else
+   if(opcao == 9){
+       printf("Você é do seguinte signo do zodiaco: Libra");
+   }else
+   if(opcao == 10){
+       printf("Você é do seguinte signo do zodiaco: Escorpião");
+   }else
+   if(opcao == 11){
+       printf("Você é do seguinte signo do zodiaco: Sagitário");
+   }else
+   if(opcao == 12){
+       printf("Você é do seguinte signo do zodiaco: Capricórnio");
+   }else
+        printf("Invalido");
+  
+    return 0;
+}
