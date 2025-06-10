@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int qpao, qbroa;
+    float total, poupanca;
+    
+    printf("Informe a quantidade total de pães comprados: ");
+    scanf("%d", &qpao);
+    printf("Informe a quantidade total de broa comprada: ");
+    scanf("%d", &qbroa);
+    
+    total = (qpao * 0.12) + (qbroa * 1.50);
+    poupanca = total * 0.10;
+    
+    printf("O total é %d\n", total);
+    printf("Para a poupamça é %.2f", poupanca);
+    return 0;
+}
