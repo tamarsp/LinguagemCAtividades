@@ -1,0 +1,50 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int funcionario, salario, numero;
+   float  novoSalario, porcentagem;
+   float aumento1 = 0.10;
+   float aumento2 = 0.15;
+   float aumento3 = 0.25;
+   float aumento4 = 0.35;
+   float aumento5 = 0.50;
+   char nome[10];
+   printf("Nome do funcionario: "); fgets(nome, 10, stdin);
+   printf("Digite um numero de 1 a 26 "); scanf("%d", &numero);
+   
+   if(funcionario == 1 || 3 || 6 || 8){
+       printf("Digite o salario: "); scanf("%d", &salario);
+       porcentagem = salario * aumento1;
+       novoSalario = salario + porcentagem;
+       printf("O novo salario é de: %.2f", novoSalario);
+   }
+   if(funcionario == 2 || 4 || 5 || 9 || 10 || 20){
+       printf("Digite o salario: "); scanf("%d", &salario);
+       porcentagem = salario * aumento2;
+       novoSalario = salario + porcentagem;
+       printf("O novo salario é de: %.2f", novoSalario);
+   }
+   if(funcionario == 11 || 18){
+       printf("Digite o salario: "); scanf("%d", &salario);
+       porcentagem = salario * aumento3;
+       novoSalario = salario + porcentagem;
+       printf("O novo salario é de: %.2f", novoSalario);
+   }
+    if(funcionario == 12 || 13 || 14 || 15 || 16 || 17 || 19){
+       printf("Digite o salario: "); scanf("%d", &salario);
+       porcentagem = salario * aumento4;
+       novoSalario = salario + porcentagem;
+       printf("O novo salario é de: %.2f", novoSalario);
+    }
+    if(funcionario == 21 || 22 || 26 || 24 || 25 || 26){
+        printf("Digite o salario: "); scanf("%d", &salario);
+       porcentagem = salario * aumento5;
+       novoSalario = salario + porcentagem;
+       printf("O novo salario é de: %.2f", novoSalario);
+    }else{
+        printf("Numero invalido");
+    }
+   
+    return 0;
+}
