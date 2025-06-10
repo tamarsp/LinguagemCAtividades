@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+   int a[4], b[4];
+   int i;
+   
+   printf("Informe 4 numeros para o vetor a: \n");
+   for(i=0; i<4; i++){
+       printf("a[%d] ", i);
+       scanf("%d", &a[i]);
+   }
+   for(i = 0; i<4; i++){
+       printf("%d", a[i]);
+   }
+   printf("\ncopia:\n");
+    for (i = 0; i < 4; i++) {
+        printf("%d ", a[i], b[i]);
+    }
+    for(i=0; i<4; i++){
+       a[i] = b[i];
+   }
+
+    return 0;
+}
