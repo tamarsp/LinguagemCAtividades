@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+   int a, b, resultado, opcao;
+   printf("Lista de operação para calculadora com dois numeros\n");
+   printf("\nInforme dois numeros: \n"); scanf("%d%d", &a, &b);
+   printf("\n1) +\n");
+   printf("\n2) -\n");
+   printf("\n3) *\n");
+   printf("\n4) /\n");
+   printf("Operador"); scanf("%d", &opcao);
+   
+   switch(opcao){
+       case 1:
+       
+       resultado = a + b;
+       printf("Resultado: %d", resultado);
+       break;
+       case 2:
+       resultado = a - b;
+       printf("Resultado: %d", resultado);
+       break;
+        case 3: 
+        resultado = a * b;
+       printf("Resultado: %d", resultado);
+       break;
+       case 4:
+       resultado = a / b;
+       printf("Resultado: %d", resultado);
+       break;
+       default:
+       printf("Invalido a operação");
+   }
+    return 0;
+}
